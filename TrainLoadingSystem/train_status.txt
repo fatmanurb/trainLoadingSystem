@@ -1,0 +1,4 @@
+TRAIN:T123:1
+WAGON:1:1000.00:500.00
+L:Large Box:200.00:10
+L:Medium Box:150.00:5
