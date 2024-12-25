@@ -6,7 +6,7 @@
 #include "../include/file_ops.h"
 #include "../include/utils.h"
 
-// Menü başlığını yazdırma
+
 void display_menu() {
     printf("=== Train Loading Management System ===\n");
     printf("1. Load train status from file\n");
@@ -31,7 +31,7 @@ int main() {
     char filename[50];
     MaterialType* materials[3]; // Üç tür malzeme için dizi
 
-    // Malzemeleri oluştur
+   
     materials[0] = create_material("Large Box", 200.0, 50);
     materials[1] = create_material("Medium Box", 150.0, 50);
     materials[2] = create_material("Small Box", 100.0, 50);
